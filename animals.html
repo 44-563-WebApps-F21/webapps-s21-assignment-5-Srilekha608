@@ -13,6 +13,24 @@
   <title>WEB APPLICATIONS ASSIGNMENT 05</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="plane.html">Plane</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="train.html">Train</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 <h1>Animals by Srilekha Janagam</h1>
 <div class="container">
 <div class="row">
@@ -32,8 +50,146 @@
     <div class="col-md">Ants</div>
 </div>
 
-</div>
+</div><br><hr>
 <p> when I tried to reduce the window size the second row breaks first (i.e) the animals row broke first because the bootstrap grid system makes the window responsive</p>
-  </body>
+<div class="container"  >
+    <img src="image1.jpg" class="img-fluid" alt="squirrel">
+    <img src="image2.jpg" class="img-fluid" alt="panda"  >
+    <img src="image3.jpg" class="img-fluid" alt="lion" >
+</div>
+<br>
+<div class="container"  >
+    <img src="image1.jpg" class="img-thumbnail" alt="squirrel"   >
+    <img src="image2.jpg" class="img-thumbnail" alt="panda"  >
+    <img src="image3.jpg" class="img-thumbnail" alt="lion" >
+</div>
+<br>
+<table class="table table-striped table-hover table-light" style="color:chocolate; width: 60%; text-align:center; margin-left: auto; margin-right: auto;" >
+    <caption style="font-size: 20px; color:chocolate;"> Table contains 6 letters of my last name and the corresponding animals,cities and car models that start with those letters.</caption>
+    <thread>
+      <thead>
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">Animal</th>
+          <th scope="col">City</th>
+          <th scope="col">Car</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">J</td>
+          <td scope="row">Jackal</td>
+          <td scope="row">Jammu&Kashmir</td>
+          <td scope="row">Jaguar</td>
+        </tr>
+        <tr>
+          <td scope="row">A</td>
+          <td scope="row">Alligator</td>
+          <td scope="row">America</td>
+          <td scope="row">Acura</td>
+        </tr>
+        <tr>
+          <td scope="row">N</td>
+          <td scope="row">Nightingale</td>
+          <td scope="row">Naigra</td>
+          <td scope="row">Nissan</td>
+        </tr>
+        <tr>
+          <td scope="row">A</td>
+          <td scope="row">Aardvark</td>
+          <td scope="row">Atlanta</td>
+          <td scope="row">Accord</td>
+        </tr>
+        <tr>
+          <td scope="row">G</td>
+          <td scope="row">Gaintpanda</td>
+          <td scope="row">Georgia</td>
+          <td scope="row">Galpin</td>
+        </tr>
+        <tr>
+          <td scope="row">A</td>
+          <td scope="row">Ants</td>
+          <td scope="row">Asia</td>
+          <td scope="row">Alpina</td>
+        </tr>
+      </tbody>
+    </thread>
+  </table>
+  <div class="btn-toolbar" role="toolbar" aria-label="Button Groups with toolbar">
+    <div class="btn-group mr-4" role="group" aria-label="First Button Group">
+        <button type="button" class="btn btn-success">J</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">N</button>
+    </div>
+    <div class="btn-group mr-4" role="group" aria-label="Second Button Group">
+        <button type="button" class="btn btn-warning">A</button>
+        <button type="button" class="btn btn-warning">G</button>
+    </div>
+    <div class="btn-group mr-4" role="group" aria-label="Third Button Group">
+        <button type="button" class="btn btn-danger">A</button>
+    </div>
+</div>
+<br>
+
+<div class="dropdown">
+  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false">
+      Dropdown
+  </button>
+  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="./Train.html">Train</a>
+      <a class="dropdown-item" href="./Plane.html">Plane</a>
+  </div>
+</div>
+<br>
+
+<form>
+    <div class="form-group">
+      <label for="EmailLogin">Email address</label>
+      <input type="email" class="form-control" id="Email" aria-describedby="emailaddress" placeholder="Enter your email address">
+      <small id="emailaddress" class="form-text text-muted">Credentials are kept in privacy .</small>
+    </div>
+    <div class="form-group">
+      <label for="Password">Animal</label>
+      <input type="text" class="form-control" id="Password" placeholder="Enter your animal">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="checkin">
+      <label class="form-check-label" for="Checkin">Sign up</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="image1.jpg" alt="Squirrel" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">Squirrel</h5>
+        <p class="card-text">
+           
+            Squirrels have four front teeth which never stop growing throughout their lives. This ensures that their teeth don't wear down from constant gnawing on nuts and other objects. 3. Squirrels can be categorised into three types: ground squirrels, tree squirrels and flying squirrels.</p>
+             <a class="btn btn-primary" href="https://www.nationalgeographic.com/animals/mammals/facts/squirrels">Read more</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="image2.jpg" alt="Panda" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">panda</h5>
+        <p class="card-text">Pandas live mainly in temperate forests high in the mountains of southwest China, where they subsist almost entirely on bamboo. They must eat around 26 to 84 pounds of it every day, depending on what part of the bamboo they are eating. They use their enlarged wrist bones that function as opposable thumbs..</p>
+             <a class="btn btn-primary" href="https://www.worldwildlife.org/species/giant-panda">Read more</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="image3.jpg" alt="Lion" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">Lion</h5>
+        <p class="card-text">Living in the grasslands, scrub, and open woodlands of sub-Saharan Africa, the lion is the second largest cat in the world. It is dwarfed slightly by the tiger, which is closely related and has a very similar body type.</p>
+             <a class="btn btn-primary" href="https://animalfactguide.com/animal-facts/lion/">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+</body>
 
   </html>
